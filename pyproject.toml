@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aula-08"
+version = "0.1.0"
+description = ""
+authors = ["FernandoMS4 <fernando381046@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pandera = "^0.21.1"
+pandas = "^2.2.3"
+fastparquet = "^2024.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
